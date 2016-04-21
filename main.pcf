@@ -1,0 +1,38 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Mar 24 13:13:46 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "to_led<2>" LOCATE = SITE "J17" LEVEL 1;
+COMP "to_led<3>" LOCATE = SITE "G14" LEVEL 1;
+COMP "to_led<4>" LOCATE = SITE "D16" LEVEL 1;
+COMP "to_led<5>" LOCATE = SITE "D17" LEVEL 1;
+COMP "to_led<6>" LOCATE = SITE "F18" LEVEL 1;
+COMP "digit_clk" LOCATE = SITE "T17" LEVEL 1;
+COMP "A<0>" LOCATE = SITE "K13" LEVEL 1;
+COMP "to_led<7>" LOCATE = SITE "L18" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "number_clk" LOCATE = SITE "R18" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "M14" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "M16" LEVEL 1;
+COMP "B<0>" LOCATE = SITE "L15" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "K12" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "L17" LEVEL 1;
+COMP "select_clk" LOCATE = SITE "R15" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "M15" LEVEL 1;
+COMP "digit_led<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "led_en<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "digit_led<1>" LOCATE = SITE "E17" LEVEL 1;
+COMP "led_en<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "digit_led<2>" LOCATE = SITE "K14" LEVEL 1;
+COMP "led_en<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "digit_led<3>" LOCATE = SITE "K15" LEVEL 1;
+COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
+COMP "led_en<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "digit_led<4>" LOCATE = SITE "J15" LEVEL 1;
+COMP "digit_led<5>" LOCATE = SITE "J14" LEVEL 1;
+COMP "to_led<0>" LOCATE = SITE "C17" LEVEL 1;
+COMP "to_led<1>" LOCATE = SITE "H14" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

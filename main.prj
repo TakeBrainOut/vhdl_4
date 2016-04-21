@@ -1,0 +1,4 @@
+vhdl work "output_unit.vhd"
+vhdl work "freq_div.vhd"
+vhdl work "div.vhd"
+vhdl work "main.vhf"

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work div.vhd -prj lab2_ispr -o div.spl -module div -template E:/programs/XE/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e div.spl E:/labs/lab2_ispr/div.sym 

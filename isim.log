@@ -1,0 +1,14 @@
+ISim log file
+Running: E:\labs\lab2_ispr\div_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/labs/lab2_ispr/div_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /div/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+ERROR: In process div.vhd:58 
+ Target Size 8 and source size 4 for array dimension 0 does not match. 
+
+INFO: Simulator is stopped.

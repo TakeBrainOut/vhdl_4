@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/labs/lab2_ispr/div_isim_beh.exe" -prj "E:/labs/lab2_ispr/div_beh.prj" "work.div" 

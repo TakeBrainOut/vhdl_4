@@ -1,0 +1,2 @@
+vhdtdtfi -lib work output_unit.vhd -prj lab2_ispr -o output_unit.spl -module output_unit -template E:/programs/XE/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e output_unit.spl E:/labs/lab2_ispr/output_unit.sym 

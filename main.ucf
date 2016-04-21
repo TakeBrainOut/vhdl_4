@@ -1,0 +1,38 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "select_clk" LOC = R15;
+NET "number_clk" LOC = R18;
+NET "CLK" LOC = B8;
+NET "digit_clk" LOC = T17;
+
+NET "A[3]" LOC = M16;
+NET "A[2]" LOC = M14;
+NET "A[1]" LOC = L16;
+NET "A[0]" LOC = K13;
+
+NET "B[3]" LOC = M15;
+NET "B[2]" LOC = L17;
+NET "B[1]" LOC = K12;
+NET "B[0]" LOC = L15;
+
+NET "led_en[0]" LOC = F17;
+NET "led_en[1]" LOC = H17;
+NET "led_en[2]" LOC = C18;
+NET "led_en[3]" LOC = F15;
+
+NET "to_led[7]" LOC = L18;
+NET "to_led[6]" LOC = F18;
+NET "to_led[5]" LOC = D17;
+NET "to_led[4]" LOC = D16;
+NET "to_led[3]" LOC = G14;
+NET "to_led[2]" LOC = J17;
+NET "to_led[1]" LOC = H14;
+NET "to_led[0]" LOC = C17;
+
+NET "digit_led[0]" LOC = P15;
+NET "digit_led[1]" LOC = E17;
+NET "digit_led[2]" LOC = K14;
+NET "digit_led[3]" LOC = K15;
+NET "digit_led[4]" LOC = J15;
+NET "digit_led[5]" LOC = J14;
